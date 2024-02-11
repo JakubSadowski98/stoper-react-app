@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: $base-size;
+  background: $color-dark;
+};
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: $base-size;
+  }
+}
